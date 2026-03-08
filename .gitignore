@@ -1,0 +1,26 @@
+# Secrets
+.env
+*.env
+secrets.toml
+
+# Virtual environment
+math_env/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+
+# Large data files — do NOT push PDFs or Pinecone index
+Data/
+*.pdf
+
+# Memory store (runtime file, not needed in repo)
+memory_store.jsonl
+
+# Debug files
+solver_debug.txt
+
+# OS
+.DS_Store
+Thumbs.db
