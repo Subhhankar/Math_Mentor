@@ -4,12 +4,15 @@ langchain_community
 langchain_core
 langchain_google_genai
 langchain_huggingface
-langchain_pinecone
+langchain_pinecone<0.2.0
 numpy
-pinecone
+pinecone>=3.0.0,<6.0.0
 protobuf
 python-dotenv
 sentence_transformers
 streamlit
 streamlit_mic_recorder
 torch
+SpeechRecognition
+Pillow
+pypdf
