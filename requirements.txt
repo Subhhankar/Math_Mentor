@@ -7,8 +7,8 @@ langchain_core
 langchain_google_genai
 langchain_huggingface
 langchain_pinecone==0.1.3
+pinecone-client==5.0.1
 numpy
-pinecone==4.1.2
 python-dotenv
 sentence_transformers
 streamlit_mic_recorder
